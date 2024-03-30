@@ -48,6 +48,8 @@ document.addEventListener("DOMContentLoaded", () => {
     // Create a div element for the turn
     const turnElement = document.createElement("div");
     turnElement.textContent = `Turn ${turn}`;
+    turnElement.style.fontSize = "45px";
+    turnElement.style.fontWeight = "600";
 
     // Append the turn element to the turns container
     turnsContainer.appendChild(turnElement);
